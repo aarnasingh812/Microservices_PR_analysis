@@ -1,0 +1,7 @@
+fastapi
+redis-om
+uvicorn
+django
+celery
+dotenv
+pydantic
