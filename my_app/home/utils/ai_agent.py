@@ -9,8 +9,6 @@ load_dotenv()
 key=os.getenv('GROQ_API_KEY')
 
 
-#key="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"
-
 def analyze_code_with_llm(file_content, file_name):
     prompt = f""" 
         Analyse the following code for:
